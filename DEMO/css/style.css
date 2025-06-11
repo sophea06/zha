@@ -1,0 +1,30 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:50px 100px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+span{
+    color: teal;
+}
+ul{
+    margin-left: 25%;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+#active{
+    font-weight: bold;
+    color: orange;
+    text-decoration: underline;
+}
