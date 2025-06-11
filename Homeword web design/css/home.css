@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+#active{
+    font-weight: bold;
+    color: orange;
+    text-decoration: underline;
+}
+.container{
+ background: teal;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+    border-radius: 100%;
+}
+.logo{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+      list-style: none;
+      display: flex;
+      /* justify-content: center;
+      gap: 10px; */
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.auth-btn{
+    display: flex;
+    gap: 10px;
+}
+.auth{
+    padding: 10px 24px;
+    border: none;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 16px;
+}
+#btn-login{
+    background-color: rgb(140, 243, 5);
+    color: white;
+}
+#btn-logout{
+    background-color: red;
+    color: white;
+}
+.content{
+    background-image: url(../image/Bird1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6rem;
+}
+.content h1{
+    /* text-align: center; */
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.content p{
+    /* text-align: center; */
+    /* display: flex; */
+    color: white;
+    width: 80%;
+    background-color: rgba(27, 27, 27, 0.534);
+    padding: 20px;
+    border-radius: 10px;
+}
+hr {
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+footer p:hover {
+    text-decoration: underline;
+}
