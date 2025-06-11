@@ -1,0 +1,36 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-image: url(../image/IM2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#active{
+    text-decoration: underline;
+    color: orange;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    background-color: teal;
+    padding: 20px;
+    font-size: 20px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+hr {
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

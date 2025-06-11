@@ -1,0 +1,32 @@
+*{
+    font-family: sans-serif;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+} 
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: teal;
+    padding: 20px;
+    font-size: 20px;
+}
+body{
+    background-image: url(../image/Bird1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+   text-align: center;
+    color: white;
+    font-size: 80px;
+}
+hr {
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
